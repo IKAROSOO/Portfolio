@@ -11,7 +11,7 @@ monitor_0 = {
     "top": monitors[0]['top'],
     "width": monitors[0]['width'],
     "height": monitors[0]['height'],
-    "mon": 1
+    "mon": 0
 }
 
 monitor_1 = {
@@ -37,6 +37,6 @@ with mss.mss() as sct:
     img_2 = sct.grab(monitor_2)
 
     # 예시: 파일로 저장하기
-    mss.tools.to_png(img_0.rgb, img_0.size, output="monitor_0.png")
-    mss.tools.to_png(img_1.rgb, img_1.size, output="monitor_1.png")
-    mss.tools.to_png(img_2.rgb, img_2.size, output="monitor_2.png")
+    # mss.tools.to_png(img_0.rgb, img_0.size, output="monitor_0.png")
+    # mss.tools.to_png(img_1.rgb, img_1.size, output="monitor_1.png")
+    # mss.tools.to_png(img_2.rgb, img_2.size, output="monitor_2.png")
