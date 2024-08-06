@@ -1,0 +1,30 @@
+Rust 공식 문서 : 
+(영문) : https://doc.rust-lang.org/book/ch01-00-getting-started.html
+(한글) : https://doc.rust-kr.org/
+
+1. cargo를 이용한 프로젝트 생성
+    -> cargo new <프로젝트명>
+2. cargo 프로젝트 빌드
+    -> cargo build
+3. cargo 프로젝트 실행
+    -> cargo run
+    코드가 바뀌면 컴파일도 동시에 해준다
+4. cargo로 에러 체크하기
+    -> cargo check
+
+------------
+rust의 변수 설정
+
+Rust의 변수는 기본적으로 변할 수 없다.
+
+변수를 바꾸고 싶으면 선언할 때
+    -> let mut 형태로 선언해야 한다.
+
+let 변수 : 변수타입
+    -> 변수타입은 여러 종류 존재    
+
+rust의 상수
+
+반드시 문자형을 선언해 줘야 한다.
+
+상수의 재정의는 불가능하다.
